@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title>KW Web Project | Home</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./js/bubble.js"></script>
+</head>
+<body>
+    <!-- header 시작 -->
+    <header> 
+        <div class="container">
+            <div class = "bubbles" id="header-title">
+                <h1>EUROPE LIFE</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="home.html">Home</a></li>
+                    <li><a href="travel.html">Travel</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- section 시작 -->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box" style="background: url(img/paris.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Paris</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <a href="paris.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box second" style="background: url(img/london.jpg) no-repeat;">
+                        <div class="content">
+                            <span>London</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eius, corporis similique voluptatem officia expedita labore eligendi delectus maiore.!</p>
+                            <a href="london.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box third" style="background: url(img/monaco.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Monaco</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est animi repudiandae sunt, iure aliquid modi. Qui nisi, repellat sapiente officia ut, molestiae!</p>
+                            <a href="monaco.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box fourth" style="background: url(img/malta.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Malta</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est animi repudiandae sunt, iure aliquid modi. Qui nisi, repellat sapiente officia ut, molestiae!</p>
+                            <a href="malta.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box fifth" style="background: url(img/swiss.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Swiss</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est animi repudiandae sunt, iure aliquid modi. Qui nisi, repellat sapiente officia ut, molestiae!</p>
+                            <a href="swiss.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box sixth" style="background: url(img/belgium.jpg) no-repeat;">
+                        <div class="content">
+                            <span>Belgium</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est animi repudiandae sunt, iure aliquid modi. Qui nisi, repellat sapiente officia ut, molestiae!</p>
+                            <a href="belgium.html" class="btn">Find Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- section video start -->
+    <section class="video" id="video">
+        <div class="row">
+            <div id="video-container">
+                <video src="img/europe.mp4 "loop autoplay muted></video>
+            </div>
+            <div id="context">
+                <h1>Europe Best 6 Places</h1>
+                <br><br>
+                <p>I will introduce,</p><br>
+                <p>Places I went,</p><br>
+                <p>Places I loved</p><br>
+                <p id="flag">🇫🇷🇲🇹🇨🇭🇲🇨🏴󠁧󠁢󠁥󠁮󠁧󠁿🇧🇪</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- javascript -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

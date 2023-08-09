@@ -1,0 +1,62 @@
+.about{
+    padding-top: 10em;
+}
+/*절대 좌표를 사용 */
+  .profile {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 960px;
+    padding: 40px 24px;
+    border-radius: 6px;
+    background-color: rgba(79, 93, 104, 0.162);
+  }
+  
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 300px;
+  }
+  
+  .profile-photo img {
+    width: 150px;
+    height: auto;
+    border-radius: 150px;
+    border: 1px solid #eaeaea;
+  }
+  
+  .profile-data {
+    flex-grow: 2;
+    padding: 4px 0;
+  }
+  
+  .profile-data h1 {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: -5px 0 20px;
+  }
+  
+  .profile-data dl {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-bottom: 20px;
+    float: right;
+  }
+  
+  .profile-data dl div {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 30px;
+    font-size: 16px;
+    white-space: nowrap;
+  
+  }
+  .profile-data h2, .profile-data p {
+      display:inline-block;
+      font-size: 16px;
+}  
